@@ -10,7 +10,7 @@ const CardList = ({robots}) => {
             robots.map((user,i) => {
                 return (
                     <div className='tc ba b--black-20 w-20 bw1 bg2 washed-blue dib br3 pa3 ma3 grow bw2 shadow-5'>
-                        <App2 data={data[i]}/> ;
+                        <App2 data={data[i]}/> 
                         <Card 
                         key ={i} 
                         id={robots[i].id} 
