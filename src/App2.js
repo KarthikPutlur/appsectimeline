@@ -1,15 +1,8 @@
 import React, {Component} from 'react';
-import ReactDOM from "react-dom";
+
 import {Chart} from "react-google-charts";
 
 
-{/* const data = [
-  ["Element", "Density", { role: "style" }],
-  ["Critical", 21, "red"], // RGB value
-  ["High", 74, "orange"], // English color name
-  ["Medium", 155, "yellow"],
-   // CSS-style declaration
-]; */}
 
 class App2  extends Component {
   render() {
@@ -24,7 +17,40 @@ class App2  extends Component {
             backgroundColor= "#111111"
             opacity="0.9"
             
+            options={
+              // Chart options
+               {
+                curveType:"none",
+                lineWidth: 7, 
+                backgroundColor: 'white',
+                colors:["red","orange","yellow",""],
+
+                annotations: {
+                  textStyle: {
+                  fontName: 'Times-Roman',
+                  fontSize: 28,
+                  
+                }
+                },
+                tooltip:{
+                  textstyle:{
+                    
+                    italic:true
+                  }
+                },
+                hAxis: {
+                  textStyle : {
+                    fontSize: 27 
+                }
+                },
+                vAxis: {textStyle : {
+                  fontSize: 27 } },
+                legend: {position:"top", alignment:'start', textStyle:{fontSize:20}}
+              }
+            }
+
             data={this.props.data}
+            
           />
        }
       </div>

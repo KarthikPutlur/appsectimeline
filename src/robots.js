@@ -57,28 +57,28 @@ export const robots = [
 },
 {
     id:9,
-    name:'FRED Order Routing/OMS ',
+    name:'Project Messenger',
     username:'Samantha',
     email:'kkumar@woolworths.com.au',
    
 },
 {
     id:10,
-    name:'FRED Order Visibility',
+    name:'Nexday/Endeavour Deliveries',
     username:'Samantha',
     email:'kkumar@woolworths.com.au',
     
 },
 {
     id:10,
-    name:'FRED Order Visibility',
+    name:'Endeavour Market Place',
     username:'Samantha',
     email:'kkumar@woolworths.com.au',
     
 },
 {
     id:10,
-    name:'FRED Order Visibility',
+    name:'Wilma',
     username:'Samantha',
     email:'kkumar@woolworths.com.au',
     

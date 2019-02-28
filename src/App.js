@@ -1,6 +1,6 @@
 import React from 'react';
 import CardList from './CardList.js';
-import SearchBox from './SearchBox.js';
+
 import {robots} from './robots.js';
 import './App.css';
 import MoveStuffAround from './MoveStuffAround.js';
